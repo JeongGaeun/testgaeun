@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.intro {
+    font-family: 'Gowun Dodum', sans-serif;
+    width: 100%;
+    height: 714px;
+    color: #dfc0c0;
+    background-image: url(25summer_main_8.jpg);
+    background-size: cover;
+
+    .fa-bars {
+        display: none;
+    }
+}
+
+
+.intro-text {
+    color: #3a2e2e;
+    padding: 20px 20px;
+    text-align: center;
+    margin: 180px auto;
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+    background-color: rgba(255, 240, 250, 0.75);
+
+    h2 {
+        font-size: 32px;
+        font-weight: 600;
+        color: #ff6699;
+        margin-bottom: 12px;
+    }
+
+    p {
+        font-size: 18px;
+        font-weight: 400;
+        color: #5c5c5c;
+        line-height: 1.6;
+    }
+}
+
+.intro div {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    /* background-color: brown; */
+
+    span {
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    header {
+        display: flex;
+        width: 1280px;
+        height: 66px;
+        margin: auto;
+        justify-content: end;
+        align-items: center;
+    }
+
+
+
+    ul {
+        padding: 2px;
+        display: flex;
+        justify-content: right;
+        /* background-color: rgb(252, 252, 252); */
+        font-size: 16px;
+        column-gap: 20px;
+    }
+
+    i {
+        font-size: 20px;
+        color: palevioletred;
+        cursor: pointer;
+    }
+}
+
+
+
+
+.menu {
+    display: flex;
+    background-color: rgb(252, 252, 252);
+    justify-content: center;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+.fa-solid {
+    font-size: 38px;
+}
+
+.menu-item {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* position: relative; */
+
+}
+
+.menu-item:hover {
+    background-color: rgb(255, 238, 247);
+    color: #ff6699;
+}
+
+
+.tshirt {
+    font-family: 'Spoqa Han Sans Neo';
+    width: 1280px;
+    background-color: white;
+    /* display: flex; */
+    margin: auto;
+    /* position: relative; */
+    top: -66px;
+
+    li {
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+        .tshirt-ex {
+            font-size: 30px;
+            font-weight: 500;
+            margin-bottom: 4px;
+            color: rgb(39, 39, 39);
+        }
+
+
+        .tshirt-sub {
+            font-size: 19px;
+
+        }
+    }
+
+    img {
+        cursor: pointer;
+        width: 30%;
+        /* width: 400px; */
+        padding: 20px;
+        height: 280px;
+        /* background-color: aqua; */
+
+    }
+}
+
+
+.eunwoo-container {
+    font-family: 'Gowun Dodum', sans-serif;
+    text-align: center;
+
+    h2 {
+        font-size: 32px;
+        font-weight: 600;
+        padding-top: 50px;
+        margin-bottom: 10px;
+        color: #ff66a3;
+    }
+
+    p {
+        font-size: 18px;
+        color: #555;
+    }
+
+    .eunwoo {
+        background-color: #fffaf0;
+        width: 90%;
+        max-width: 1180px;
+        margin: 50px auto 100px;
+        display: flex;
+        gap: 30px;
+        border-radius: 20px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+        padding: 30px;
+        align-items: center;
+
+        img {
+            width: 50%;
+            max-width: 500px;
+            border-radius: 16px;
+        }
+
+
+        .text-wrap {
+            padding: 20px;
+
+        }
+
+        p {
+            margin-bottom: 20px;
+            text-align: left;
+            font-size: 16px;
+            word-break: keep-all;
+            line-height: 1.8;
+        }
+    }
+}
+
+.insta-container {
+    padding: 40px;
+    text-align: center;
+}
+
+.insta-icon {
+    font-size: 50px;
+    color: #E1306C;
+    margin-bottom: 10px;
+}
+
+.insta-container h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #130808;
+}
+
+.insta-container p {
+    margin: 5px;
+    color: #555555;
+}
+
+.footer {
+    font-family: 'Gowun Dodum', sans-serif;
+
+    background-color: #fff0f6;
+    color: #5c4b51;
+    padding: 50px 60px;
+
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-info li {
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.footer-logo {
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+
+@media (max-width:768px) {
+
+    .intro {
+        background-position: 80% 0%;
+
+        .fa-bars {
+
+            font-size: 40px;
+            width: 40px;
+            height: 40px;
+            display: block;
+            cursor: pointer;
+            position: absolute;
+            top: 2%;
+            right: 2%;
+            color: #dd799a;
+            transition: all 0.5s;
+            z-index: 10;
+
+        }
+
+        .fa-bars:active {
+            color: #eea5be;
+            transform: rotate(90deg);
+        }
+
+        .fa-bars:active.menu {
+            top: 0;
+        }
+
+        header {
+            width: 100%;
+            position: relative;
+        }
+
+        .menu {
+            display: none;
+        }
+    }
+
+    .intro-text {
+        width: 95%;
+        padding: 10px 10px 30px;
+        text-align: center;
+        margin: 100px auto;
+
+        h2 {
+            font-size: 36px;
+            font-weight: 400;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    }
+}
+
+
+
+.tshirt {
+    width: 100%;
+    flex-direction: column;
+    top: 0;
+
+    img {
+        margin-left: 50px;
+    }
+
+    .tshirt-ex {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    li {
+        .tshirt-sub {
+            font-size: 22px;
+        }
+    }
+
+
+
+    .eunwoo-container{
+        
+        .eunwoo{
+            flex-direction: column;
+            margin-top: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .img{
+            width: 100%;
+            height: 500px;
+        }
+
+        .text-wrap{
+            width: 100%;
+            padding-left: 0;
+            height:auto;
+        }
+    }
+}
